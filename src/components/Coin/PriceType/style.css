@@ -1,0 +1,22 @@
+.toggle-prices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding-top: 1rem;
+    border-color: var(--white);
+}
+
+.toggle-btn{
+    /* font-size: 0.6rem !important; */
+    padding: 0.5rem !important;
+    color: var(--white) !important;
+}
+
+@media only screen and (max-width:800px){
+    .toggle-btn{
+        font-size: 0.6rem !important;
+        padding: 0.5rem !important;
+        color: aqua !important;
+    }
+}

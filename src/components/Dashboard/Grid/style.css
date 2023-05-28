@@ -1,0 +1,141 @@
+.grid-container{
+    width:250px;
+    height: 280px;
+    background-color: var(--darkgrey);
+    border: 2px solid var(--darkgrey);
+    border-radius: 0.75rem;
+}
+.grid-container:hover{
+    border-color: greenyellow;
+    transition: all 0.3s;
+}
+.grid-container-red:hover{
+    border-color: var(--red) !important;
+    transition: all 0.3s;
+}
+
+
+.info-flex{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ gap: 1rem;
+ margin: 1.5rem 1rem;
+}
+
+.coin-logo{
+ height: 3.5rem;
+ width: 3.5rem;
+}
+
+.coin-symbol{
+ color: var(--white);
+ text-transform: uppercase;
+ font-weight: 600;
+ font-size: 1rem;
+
+}
+.coin-name{
+ color: var(--grey);
+ text-transform: capitalize;
+ font-weight: light;
+ font-size: 2rem;
+ margin: 0;
+}
+.name-symbol{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.chip-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    margin: 1.5rem 1rem;
+}
+
+.price-chip{
+    border: 2px solid greenyellow;
+    border-radius: 2rem;
+    padding: 0.35rem 1.25rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    color: greenyellow;
+    min-width: 50px;
+}
+.price-chip:hover,.icon-chip:hover{
+    background-color:greenyellow !important ;
+    color: var(--white) !important;
+}
+
+.chip-red{
+    border: 2px solid var(--red) !important;
+    color:var(--red) !important;
+}
+.chip-red:hover{
+    border: 2px solid var(--red) !important;
+    background-color: var(--red) !important;
+    color:var(--white) !important;
+}
+.icon-chip{
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    color: greenyellow;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.info-container{
+    margin: 1.5rem;
+}
+.coin-price{
+    color:greenyellow ;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.total-volume{
+    color: var(--grey);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.watchlist-icon {
+    padding: 0.5rem;
+    display: block;
+    color: greenyellow;
+    font-size: 1rem !important;
+    margin-left: auto;
+    border: 2px solid greenyellow;
+    border-radius: 3rem;
+    font-weight: 600;
+  }
+  
+  .watchlist-icon:hover {
+    background-color: greenyellow;
+    color: var(--white);
+    transition: all 0.3s;
+  }
+  
+  .watchlist-icon-red {
+    color: var(--red);
+    border: 2px solid var(--red);
+  }
+  
+  .watchlist-icon-red:hover {
+    background-color: var(--red) !important;
+    color: var(--white);
+    transition: all 0.3s;
+  }
+  @media only screen and (max-width: 800px) {
+    .watchlist-icon {
+      font-size: 1rem !important;
+      padding: 0.35rem;
+    }
+  }
+

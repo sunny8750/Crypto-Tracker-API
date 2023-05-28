@@ -1,0 +1,73 @@
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem 3rem;
+}
+
+.track-crypto-heading,.real-time-heading{
+    font-size: 6.5rem;
+    margin: 0;
+}
+.track-crypto-heading{
+    color: var(--white);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:var(--orange);
+}
+.real-time-heading{
+    color: var(--orange);
+}
+.track-crypto-heading:hover{
+    color:var(--black);
+    -webkit-text-stroke-color:var(--orange);
+    transition:all 0.3s;
+}
+
+.info-text{
+    font-size: 1rem;
+    color:var(--skyblue)
+}
+.btn-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap:1.5rem;
+    align-items: center;
+    margin-top: 1.5rem;
+    
+}
+.pic-container{
+    right: 0;
+}
+.img{
+    min-width: 70%;
+    width: 75%;
+    right: 0;
+    
+}
+
+@media only screen and  (max-width:800px){
+    .flex-info{
+        flex-direction: column;
+    }
+    .pic-container{
+        margin: auto;
+        display: block;
+        margin-top: 3rem;
+    }
+    .img{
+        left: 20%;
+    }
+    .track-crypto-heading,.real-time-heading{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .btn-flex{
+        justify-content: center;
+    }
+    .info-text{
+        text-align: center;
+    }
+    .left-component{
+        width: 100%;
+    }
+}
